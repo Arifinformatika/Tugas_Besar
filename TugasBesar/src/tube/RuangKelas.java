@@ -50,7 +50,6 @@ public class RuangKelas {
     private int kuncijendela;
     private int bahaya;
      
-    
     public String getNamaruang() {
         return namaruang;
     }
@@ -63,7 +62,7 @@ public class RuangKelas {
     public void setLokasiruang(String lokasiruang) {
         this.lokasiruang = lokasiruang;
     }
-   public String getStudi() {
+    public String getStudi() {
         return studi;
     }
     public void setStudi(String studi) {
@@ -71,7 +70,7 @@ public class RuangKelas {
     }
     public String getFakultas() {
        return fakultas;
-   }
+    }
     public void setFakultas(String fakultas) {
         this.fakultas = fakultas;
     }     
@@ -93,7 +92,7 @@ public class RuangKelas {
     public void setJumlahjendela(int newJumlahjendela){
         jumlahjendela = newJumlahjendela;
     }
-   public int getJumlahpintu(){
+    public int getJumlahpintu(){
         return jumlahpintu;
     }
     public void setJumlahpintu(int newJumlahpintu){
@@ -160,7 +159,6 @@ public class RuangKelas {
         this.posisilampu = posisilampu;
     }
     public int getJumlahkipasangin() {
-
         return jumlahkipasangin;   
 	}
     public void setJumlahkipasangin(int jumlahkipasangin) {
@@ -171,7 +169,7 @@ public class RuangKelas {
     }
     public void setKondisikipasangin(int kondisikipasangin) {
         this.kondisikipasangin = kondisikipasangin;
-   }
+    }
     public int getPosisikipasangin() {
         return posisikipasangin;
     }
@@ -196,7 +194,7 @@ public class RuangKelas {
     public void setPosisiAC(int posisiAC) {
         this.posisiAC = posisiAC;
     }
-   public int getSSID() {
+    public int getSSID() {
         return SSID;
     }
     public void setSSID(int SSID) {
@@ -216,7 +214,7 @@ public class RuangKelas {
     }
     public int getJumlahCCTV() {
         return jumlahCCTV;
-   }
+    }
     public void setJumlahCCTV(int jumlahCCTV) {
         this.jumlahCCTV = jumlahCCTV;
     }
