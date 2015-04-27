@@ -11,7 +11,7 @@ public class RuangKelas {
     private int jumlahpintu;
     private int jumlahjendela;
     private int jumlahstopkontak; 
-    private String kondisistopkontak;
+    private int kondisistopkontak;
     private int posisistopkontak;
     private int kabelLCD;
     private int kondisikabelLCD;
@@ -110,13 +110,14 @@ public class RuangKelas {
     public void setJumlahstopkontak(int jumlahstopkontak) {
         this.jumlahstopkontak = jumlahstopkontak;
     }
-    public String getKondisistopkontak() {
-        return kondisistopkontak;
-    }
-    public void setKondisistopkontak(String kondisistopkontak) {
-        this.kondisistopkontak = kondisistopkontak;
-    }
-    public int getPosisistopkontak() {
+   
+    public int getKondisistopkontak() {
+		return kondisistopkontak;
+	}
+	public void setKondisistopkontak(int kondisistopkontak) {
+		this.kondisistopkontak = kondisistopkontak;
+	}
+	public int getPosisistopkontak() {
        return posisistopkontak;
     }
     public void setPosisistopkontak(int posisistopkontak) {
