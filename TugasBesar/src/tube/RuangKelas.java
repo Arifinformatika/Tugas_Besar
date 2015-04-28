@@ -375,5 +375,4 @@ public class RuangKelas {
     public void setBahaya(int bahaya) {
         this.bahaya = bahaya;
     }
-    
 }
